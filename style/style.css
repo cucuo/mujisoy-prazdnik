@@ -29,6 +29,7 @@ a{
     font-family: 'Lobster';
     font-size: 80px;
     padding-top: 177px;
+    padding-left: 15px;
 }
 .header__text{
     color:#F2F2F2;
@@ -36,6 +37,7 @@ a{
     font-size: 25px;
     margin-top: 25px;
     width: 530px;
+    padding-left: 15px;
 }
 .link{
     color: #000;
@@ -46,6 +48,7 @@ a{
     background: #EABF3C;
     display: inline-block;
     margin-top: 25px;
+    margin-left: 15px;
 }
 .min-box{
     width: 900px;
@@ -65,6 +68,7 @@ a{
     font-family: 'Lobster';
     font-size: 60px;
     color: #EABF3C;
+    padding-left: 15px;
 }
 .box{
     display: flex;
@@ -73,6 +77,7 @@ a{
     flex-wrap: wrap;
 }
 .box__inner{
+    padding: 12px;
     border-radius: 24px;
     display: flex;
     flex-direction: column;
@@ -130,6 +135,10 @@ a{
 .crayfish__title{
     position: relative;
     margin-bottom: 20px;
+    transition: .4s;
+}
+.crayfish__inner:hover .crayfish__title{
+    display: block;
 }
 .triangle-down {
 	width: 0;
@@ -177,7 +186,7 @@ a{
     text-align: center;
     width: 710px;
     margin: 0 auto;
-    margin-bottom: 9px;
+    margin-bottom: 15px;
 }
 .recipes{
     margin-top: 180px;
@@ -264,4 +273,7 @@ a{
     text-align: center;
     font-family: 'Roboto';
     font-size: 25px;
+}
+.contact:nth-last-child(1){
+    margin-bottom: 25px;
 }

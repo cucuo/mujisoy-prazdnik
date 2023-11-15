@@ -1,0 +1,267 @@
+/* @media(max-width:1920px){
+   
+} */
+/* @media(max-width:1600px){
+    
+} */
+/* @media(max-width:1440px){
+    
+} */
+/* @media(max-width:1366px){
+    
+} */
+/* @media(max-width:1360px){
+    
+} */
+/* @media(max-width:1320px){
+    
+} */
+@media(max-width:1200px){
+    .intro{
+        padding-bottom: 100px;
+    }
+    .intro__wrapper{
+        margin: 0 auto;
+    }
+    .min-box span{
+        margin-top: 80px;
+    }
+    .box{
+        flex-wrap: wrap;
+        row-gap: 50px;
+        justify-content: space-evenly;
+    }
+    .box-left{
+        width: 810px;
+    }
+    .header__text{
+        width: 810px;
+    }
+    .beer1{
+        width:max-content;
+    }
+    .beer2{
+        width:max-content;
+    }
+    .recipes__box-right{
+       align-items: center;
+    }
+    .recipes__box-right p{
+        width: 710px;
+    }
+}
+/* @media(max-width:1180px){
+   
+} */
+@media(max-width:1024px){
+   .box{
+    column-gap: 40px;
+   } 
+}
+@media(max-width:992px){
+    .cooking__box{
+        width: 740px;
+    }
+}
+/* @media(max-width:991px) {
+    
+ } */
+@media(max-width:768px) {
+    .intro__wrapper{
+        width: 710px;
+    }
+    .header__text{
+        width: 710px;
+    }
+    .min-box{
+        width: 710px;
+    }
+}
+@media(max-width:767px) {
+    .calc{
+        width: 265px !important; 
+        display: inline-block;
+        text-align: center;
+    }
+}
+@media(max-width:575px) { 
+    .intro__wrapper{
+        width: 540px;
+    }
+    .header__text{
+        width: 540px;
+    }
+    .min-box{
+        width: 540px;
+    }
+    .beer1{
+        display: none;
+    }
+    .cooking__box {
+        width: 540px;
+    }
+    .cooking__box p{
+        width: 540px;
+    }
+    .recipes__box-right p {
+        width: 540px;
+    }
+    .text{
+        width: 540px;
+    }
+    .recipes__box-left{
+        width: 540px;
+        height: 590px;
+    }
+    .calc{
+        width: 265px !important; 
+        display: inline-block;
+    }
+}
+@media(max-width:425px) {
+    .intro__wrapper{
+        width: 400px;
+    }
+    .header__title{
+        padding-left: 10px;
+    }
+    .header__text{
+        width: 400px;
+        padding: 0 6px;
+    }
+    .title{
+        padding-left: 10px;
+    }
+    .min-box{
+        width: 400px;
+    }
+    .beer1{
+        display: none;
+    }
+    .beer2{
+        width: 400px;
+    }
+    .cooking__box {
+        width: 400px;
+    }
+    .cooking__box p{
+        width: 400px;
+    }
+    .recipes__box-right p {
+        width: 400px;
+    }
+    .text{
+        width: 400px;
+    }
+    .recipes__box-left{
+        width: 400px;
+        height: 450px;
+    }
+    .calc{
+        width: 265px !important; 
+        display: inline-block;
+    }
+    .wrapper{
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 30px;
+    }
+    .link{
+        margin-left: 12px;
+    }
+}
+@media(max-width:414px) {
+    .intro__wrapper{
+        width: 360px;
+    }
+    .header__title{
+        padding-left: 10px;
+    }
+    .header__text{
+        width: 360px;
+        padding: 0 6px;
+    }
+    .title{
+        padding-left: 10px;
+    }
+    .min-box{
+        width: 360px;
+    }
+    .beer1{
+        display: none;
+    }
+    .beer2{
+        width: 360px;
+    }
+    .cooking__box {
+        width: 360px;
+    }
+    .cooking__box p{
+        width: 360px;
+    }
+    .recipes__box-right p {
+        width: 360px;
+    }
+    .text{
+        width: 360px;
+    }
+    .recipes__box-left{
+        width: 360px;
+        height: 450px;
+    }
+    .calc{
+        width: 265px !important; 
+        display: inline-block;
+    }
+    .wrapper{
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 30px;
+    }
+    .link{
+        margin-left: 12px;
+    }
+}
+@media(max-width:375px) {
+    .intro__wrapper{
+        width: 345px;
+    }
+    .min-box{
+        width: 345px;
+    }
+    .header__title{
+        font-size: 65px;
+    }
+    .header__text{
+        width: 340px;
+    }
+    .beer2{
+        width: 345px;
+    }
+    .title{
+        width: 345px;
+        text-align: center;
+    }
+    .cooking__box{
+        width: 345px;
+    }
+    .cooking__box p{
+        width: 345px;
+    }
+    .recipes__box-right p{
+        width: 345px;
+    }
+    .recipes__box-left{
+        width: 345px;
+    }
+    .text{
+        width: 345px;
+    }
+    .discount__inner{
+        width: 345px;
+        margin: 0 auto;
+    }
+}
+/* @media(max-width:360px) {
+    
+} */
